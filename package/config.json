@@ -30,11 +30,12 @@
                 "cores_max": {
                     "type": "string",
                     "description": "Sets spark.cores.max",
-                    "default": ""
+                    "default": "2"
                 },
                 "executor_memory": {
                     "type": "string",
-                    "description": "Sets spark.executor.memory"
+                    "description": "Sets spark.executor.memory",
+                    "default": "4g"
                 }
             }
         }
